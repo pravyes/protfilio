@@ -1,5 +1,8 @@
 
 import React from 'react'
+import Image from 'next/image'
+import Project from '../assest/project.jpg'
+
 
 type Props = {}
 
@@ -16,7 +19,7 @@ function Projects({}: Props) {
             
                 <div className='w-screen hover:cursor-zoom-in flex-shrink-0 snap-center flex flex-col spay5 items-center justify-center p-20 md:p-44 h-screen'>
 
-                    <img src="https://www.ifwwebstudio.com/images/blog/full/complete-website-project-faster.jpg" alt="" />
+                    <Image src={Project.src} alt="my-image" width={1500} height={500} />
                 <div className='container mx-auto space-y-10 px-10 md:px-10 max-w-6xl'>
                     <h4 className='text-2xl font-semibold text-center '>
                     <span className='underline decoration-amber-600 upp'>Case study </span> 

@@ -3,6 +3,7 @@ import React from 'react'
 import Photo1 from '../assest/photo1.jpg'
 
 
+
 type Props = {}
 
 export default function About({}: Props) {
@@ -22,9 +23,9 @@ export default function About({}: Props) {
       <div className='space-y-10  px-10 md:px-10'>
         <h4 className='hidden md:block text-4xl md:text-2xl font-semibold '>
            Here is A little Background</h4>
-           <p className='block  text-sm  md:text-xl sp justify-items-stretch'>I am a software developer with a unique background in accounting. I have expertise in a range of front-end and back-end technologies, including JavaScript, React, Redux, React Native, .NET Web API, Node.js, Express, Entity Framework Core, SQL, MongoDB, AWS, and Firebase.
+           <p className='block  text-sm  md:text-xl sp justify-items-stretch'>I am a self taught software developer with a unique background in accounting. I have expertise in a range of front-end and back-end technologies, including JavaScript, React, Redux, React Native, .NET Web API, Node.js, Express, Entity Framework Core, SQL, MongoDB, AWS, and Firebase.
 
-My experience in software development includes working on several major projects in web publishing, video streaming, blogs, and chatbots. I have demonstrated my ability to apply my technical skills to real-world problems, creating robust and efficient applications that meet clients' needs.</p>
+My experience in software development includes working on several major projects in web publishing, video streaming, blogs, and chatbots. I have demonstrated my ability to apply my technical skills to real-world problems, creating robust and efficient applications that meet client needs.</p>
       </div>
        
         </div>

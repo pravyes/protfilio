@@ -3,6 +3,8 @@ import React from 'react'
 import {Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Photo from '../assest/photo.png'
+import Image from 'next/image'
+
 
 type Props = {}
 
@@ -20,7 +22,7 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen top-42 mt-2 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles/>
-        <img className='relative   rounded-full h-80 w-80 mx-auto object-cover cursor-pointer scale-75 hover:scale-100 ease-in duration-500'
+        <Image className='relative   rounded-full h-80 w-80 mx-auto object-cover cursor-pointer scale-75 hover:scale-100 ease-in duration-500'
          src={Photo.src} alt="" />
        <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
